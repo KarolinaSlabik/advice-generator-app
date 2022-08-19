@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-image: linear-gradient(0deg, #4e5d73 14.29%, #323a49 14.29%, #323a49 50%, #4e5d73 50%, #4e5d73 64.29%, #323a49 64.29%, #323a49 100%);
+    background-size: 14.00px 14.00px;
+}
+#color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 38, 50,0.95);
+    margin: 0;
+}
+
+#grey_window {
+    background-color: rgba(78, 93, 115,0.5);
+    position: relative;
+    width: 550px;
+    min-height: 145px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 10px 50px 40px #1F2632;
+}
+
+#header {
+    color: #52FFA8;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 19px;
+    top: 50px;
+    letter-spacing: 4px;
+}
+
+#main_text {
+    color: #CEE3E9;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 450px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pattern-divider {
+    background-image: url('../images/pattern-divider-desktop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 450px;
+    height: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+#circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    background-color: #52FFA8;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    border: none;
+    position: relative;
+    display: block;
+}
+
+#icon-dice {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#circle:hover {
+    box-shadow: 0px 0px 40px #52FFA8;
+}
+
+@media only screen and (max-width: 575px) {
+    #grey_window {
+        width: 340px;
+        min-height: 100px;
+        border-radius: 10px;
+    }
+
+    #header {
+        top: 40px;
+    }
+
+    #main_text {
+        font-size: 24px;
+        width: 320px;
+        margin-top: 70px;
+    }
+
+    #pattern-divider {
+        background-image: url('../images/pattern-divider-mobile.png');
+        width: 296px;
+    }
+
+    #circle {
+        top: 32px;
+    }
+}
